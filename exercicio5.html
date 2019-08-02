@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="cor.css">
+
+</head>
+
+<body>
+
+<h1>Editor de Strings: </h1>
+
+<form method="POST" action="exerc5php.php">
+
+    Digite algum texto aqui:<br>
+    <textarea name="texto" rows="10" cols="40" style="text-align:left;" required></textarea>
+
+<br>
+<input type="radio" name="operacao" value="tamanho">Encontrar o tamanho do texto<br>
+<input type="radio" name="operacao" value="inverter">Inverter o texto<br>
+<input type="radio" name="operacao" value="maiusculas">Mudar para todas as letras pra maiúsculas<br>
+<input type="radio" name="operacao" value="minusculas">Mudar para todas as letras pra minúsculas<br>
+<input type="radio" name="operacao" value="primeiramaiuscula">Alterar a primeira letra de todas as palavras para maiúsculas<br>
+
+
+<br><br><input type="submit" value="Manipular"><input type="reset" value="Reset">
+</form>
+
+
+</body>
+
+</html>
